@@ -26,7 +26,7 @@
 ### Features
 
 - Latest and updated login pages.
-- Mask URL support 
+- Mask URL support
 - Beginners friendly
 - Docker support (checkout `docker-legacy` branch)
 - Multiple tunneling options
@@ -34,11 +34,13 @@
   - Ngrok (With or without hotspot)
 
 
-### Installation
+### Installation for mac
 
 - Just, Clone this repository -
 ```
-$ git clone git://github.com/htr-tech/zphisher.git
+$ brew install ngrok
+$ git clone git://github.com/cloudnative-security/zphisher.git
+
 ```
 
 - Change to cloned directory and run `zphisher.sh` -
@@ -57,7 +59,7 @@ $ docker run --rm -it htrtech/zphisher
 
 ### Dependencies
 
-**`Zphisher`** requires following programs to run properly - 
+**`Zphisher`** requires following programs to run properly -
 - `php`
 - `wget`
 - `curl`
